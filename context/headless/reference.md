@@ -1,7 +1,7 @@
 # Headless Mode Reference
 
 ## Official Documentation
-- [Claude Code Headless Mode](https://docs.claude.com/en/docs/claude-code/headless)
+- [Claude Code Headless Mode](https://docs.claude.com/en/docs/claude-code/headless.md)
 
 ## Key Concepts from Documentation
 

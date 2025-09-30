@@ -1,40 +1,16 @@
 # Output Styles
 
 ## Overview
-Output styles modify Claude Code's system prompt to adapt behavior beyond standard software engineering tasks.
+Output styles modify Claude Code's system prompt to adapt behavior beyond standard software engineering tasks. They directly alter the core system prompt rather than adding supplementary context.
 
-## Built-in Styles
-1. **Default**: Standard software engineering mode
-2. **Explanatory**: Adds educational "Insights" while working
-3. **Learning**: Collaborative mode with insights and human contribution opportunities
+## Topics
 
-## Usage
+### Output Styles Basics
+@context/output-styles/output-styles-basics.md
 
-### Change Style
-```bash
-/output-style              # Interactive menu
-/output-style learning     # Direct switch
-```
+Built-in styles, usage commands, and comparison with other features.
 
-### Create Custom Style
-```bash
-/output-style:new
-```
+### Custom Output Styles
+@context/output-styles/output-styles-custom.md
 
-## Custom Style Structure
-- Name
-- Description
-- Custom instructions/behaviors (markdown)
-
-## Storage
-- User level: `~/.claude/output-styles/`
-- Project level: `.claude/output-styles/`
-
-## Comparison
-Output styles are distinct from:
-- CLAUDE.md memory files
-- `--append-system-prompt` flag
-- Sub-agents
-- Custom slash commands
-
-They directly modify the core system prompt rather than adding supplementary context.
+Creating, managing, and organizing custom styles with storage locations and best practices.

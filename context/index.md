@@ -1,46 +1,56 @@
-# Claude Code Context Index
+# Claude Code Context
 
 ## Overview
-This directory contains organized documentation and resources for Claude Code CLI automation and context management.
+Curated protocols, mechanisms, and best practices for Claude Code CLI automation and context management. Contains refined knowledge about memory systems, headless automation, hooks, agents, output styles, and MCP configuration.
 
 ## Topics
 
-### 📁 [Headless Mode](./headless/)
-- Automated CLI usage
-- Backend tool integration
-- References: `headless/reference/`
+### Memory
+@context/memory/index.md
 
-### 📁 [Output Styles](./output-styles/)
-- CLI output format customization
-- Custom styling configurations
-- References: `output-styles/reference/`
+Persistent context storage using CLAUDE.md files with hierarchical precedence.
 
-### 📁 [Hooks](./hook/)
-- Event-driven automation
-- Lifecycle event handlers
-- References: `hook/reference/`
+### Usage
+@context/usage/index.md
 
-### 📁 [Sub Agent](./sub-agent/)
-- Specialized agent utilization
-- Agent composition patterns
-- References: `sub-agent/reference/`
+CLI command patterns, workflows, and effective query techniques.
 
-### 📁 [MCP Config](./mcp-config/)
-- Model Context Protocol configuration
-- Context deployment strategies
-- References: `mcp-config/reference/`
+### Prompt
+@context/prompt/index.md
 
-### 📁 [Memory](./memory/)
-- Persistent context storage
-- Knowledge retention across sessions
-- References: `memory/reference/`
+Prompt engineering guidelines from fundamentals to advanced optimization strategies.
 
-### 📁 [Monitoring Usage](./monitoring-usage/)
-- Usage tracking and analytics
-- Performance monitoring
-- References: `monitoring-usage/reference/`
+### Config
+@context/config/index.md
 
-## Structure
-Each topic folder contains:
-- `reference/` - Official documentation links and external resources
-- Topic-specific markdown files with detailed information
+Settings hierarchy, authentication, permissions, and OpenTelemetry configuration.
+
+### Hooks
+@context/hook/index.md
+
+Event-driven automation system for Claude Code lifecycle operations.
+
+### Headless Mode
+@context/headless/index.md
+
+Programmatic, non-interactive execution for automation and backend integration.
+
+### Sub Agent
+@context/sub-agent/index.md
+
+Specialized AI assistants with focused responsibilities and tool access.
+
+### Output Styles
+@context/output-styles/index.md
+
+System prompt modifications for behavior adaptation beyond standard engineering tasks.
+
+### MCP Configuration
+@context/mcp-config/index.md
+
+Model Context Protocol configuration for external tools, resources, and prompts.
+
+### Monitoring Usage
+@context/monitoring-usage/index.md
+
+OpenTelemetry integration for usage metrics and telemetry tracking.

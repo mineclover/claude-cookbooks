@@ -1,43 +1,19 @@
 # Sub Agent
 
 ## Overview
-Sub-agents are specialized AI assistants defined as Markdown files with YAML frontmatter, stored in agent directories.
+Sub-agents are specialized AI assistants defined as Markdown files with YAML frontmatter. Each sub-agent has focused responsibilities, specific tool access, and tailored instructions.
 
-## File Structure
-```yaml
----
-name: agent-name
-description: Brief description
-allowedTools: [Bash, Read, Write]
----
+## Topics
 
-# Agent Instructions
+### Sub-Agent Basics
+@context/sub-agent/sub-agent-basics.md
 
-Your detailed prompt here...
-```
+File structure, storage locations, key components, and invocation methods.
 
-## Storage Locations
-- **User level**: `~/.claude/agents/`
-- **Project level**: `.claude/agents/`
+### Sub-Agent Design
+@context/sub-agent/sub-agent-design.md
 
-## Key Components
-
-### Frontmatter
-- `name`: Agent identifier
-- `description`: Purpose summary
-- `allowedTools`: Tool whitelist (optional)
-- `permissions`: Permission settings (optional)
-
-### Prompt Body
-Detailed instructions defining agent behavior, constraints, and expected outputs.
-
-## Agent Design Principles
-- Single, focused responsibility
-- Clear success criteria
-- Explicit tool usage guidance
-- Context-appropriate memory imports via `@path/to/context`
-
-## Resources
+Design principles, best practices, and example agent implementations.
 
 ### Tools Available to Claude
 @context/sub-agent/tools-available-to-claude.md
